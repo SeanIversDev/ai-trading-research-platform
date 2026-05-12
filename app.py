@@ -52,7 +52,7 @@ if "results" in st.session_state:
         title=f"{ticker} Closing Price"
     )
 
-    st.plotly_chart(fig_price, use_container_width=True)
+    st.plotly_chart(fig_price, width='stretch')
 
     st.subheader("Model Performance")
 
